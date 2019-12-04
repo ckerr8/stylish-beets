@@ -1,8 +1,12 @@
 html {
   background-color: #c9b5ab;
-  font-family: "PT Serif", regular;
+  font-family: "PT Serif", serif
   line-height: 1.5rem;
-  font-size: 0.8rem;
+}
+
+header {
+  font-size: 1.125rem;
+  font-family: "PT Serif", serif;
   color: #222;
 }
 
@@ -39,9 +43,50 @@ figcaption {
 }
 
 .germination {
-  font-family: "PT Serif", bold;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
 }
 
 h2 {
-  font-family: "PT Sans", bold;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+dl {
+  font-family:"PT Serif", serif;
+  font-size: 1.125rem;
+}
+
+dd {
+  font-family:"PT Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: italic
+  text-align: right;
+}
+
+.nutrition {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #3f1622;
+  text-align: left;
+
+}
+
+aside {
+  font-size:0.8rem;
+}
+
+footer {
+  font-size: 1.125rem;
+  font-weight: regular;
+}
+footer a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
