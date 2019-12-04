@@ -45,6 +45,16 @@ figcaption {
 .germination {
   font-family: "PT Serif", serif;
   font-weight: bold;
+  font-size: 1.5rem;
+}
+
+blockquote {
+  font-size:1.5rem;
+  font-weight: italic;
+}
+
+cite {
+  font-size: 0.8rem;
 }
 
 h2 {
