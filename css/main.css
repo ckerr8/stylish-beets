@@ -82,18 +82,16 @@ ol {
   font-size: 1.125rem;
   font-weight: bold;
   color: #3f1622;
+  text-align: inherit;
   list-style-type: none;
 }
 
 .nutrition :nth-child(2n) {
   font-size: .8rem;
   color: #222;
+  text-align: inherit;
   font-weight: normal;
   list-style-type: none;
-}
-
-dd {
-  text-align: left;
 }
 
 aside {
@@ -107,16 +105,17 @@ footer {
 footer a {
   color: #8f2440;
   text-decoration: none;
-  font-size: 1.125rem;
-  font-weight:normal;
+  font-weight: normal;
 }
 
 footer a:hover {
   color: #3f1622;
   text-decoration: underline;
+  font-weight: normal;
 }
 
 a:hover {
   color: #3f1622;
   text-decoration: underline;
- }
+  font-weight: normal;
+}
