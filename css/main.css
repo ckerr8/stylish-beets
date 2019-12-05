@@ -74,7 +74,7 @@ dd {
 }
 
 ol {
-  list-style-type: lower-latin;
+  list-style-type: lower-greek;
 }
 
 .tags {
@@ -85,6 +85,18 @@ ol {
   font-size: 1.125rem;
   font-weight: bold;
   color: #3f1622;
+  list-style-type: none;
+}
+
+.nutrition :nth-child(2n) {
+  font-size: .8rem;
+  color: #222;
+  font-weight: normal;
+  margin-left: none;
+  list-style-type: none;
+}
+
+dd {
   text-align: left;
 }
 
@@ -94,6 +106,7 @@ aside {
 
 footer {
   font-size: 1.125rem;
+  font-weight: normal;
 }
 
 footer a {
