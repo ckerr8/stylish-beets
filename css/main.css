@@ -1,6 +1,6 @@
 html {
   background-color: #c9b5ab;
-  font-family: "PT Serif", serif
+  font-family: "PT Serif", serif;
   line-height: 1.5rem;
 }
 
@@ -49,8 +49,7 @@ figcaption {
 }
 
 blockquote {
-  font-size:1.5rem;
-  font-weight: italic;
+  font-size:1.5rem;;
 }
 
 cite {
@@ -71,7 +70,6 @@ dl {
 dd {
   font-family:"PT Sans", sans-serif;
   font-size: 1.125rem;
-  font-weight: italic
   text-align: right;
 }
 
@@ -80,7 +78,6 @@ dd {
   font-weight: bold;
   color: #3f1622;
   text-align: left;
-
 }
 
 aside {
@@ -89,8 +86,8 @@ aside {
 
 footer {
   font-size: 1.125rem;
-  font-weight: regular;
 }
+
 footer a {
   color: #8f2440;
   text-decoration: none;
