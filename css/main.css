@@ -49,11 +49,11 @@ figcaption {
 }
 
 blockquote {
-  font-size:1.5rem;
+  font-size: 1.5rem;
 }
 
 cite {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 h2 {
@@ -89,7 +89,7 @@ ol {
 }
 
 aside {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 footer {
@@ -105,3 +105,8 @@ footer a:hover {
   color: #3f1622;
   text-decoration: underline;
 }
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+ }
