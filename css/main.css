@@ -95,6 +95,12 @@ dd, dl {
   list-style-type: circle;
 }
 
+.nutrition {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
 .nutrition :nth-last-child(2n) {
   font-size: 1.125rem;
   font-weight: bold;
@@ -107,6 +113,7 @@ dd, dl {
   color: #222;
   font-weight: normal;
   list-style-type: none;
+  text-indent: 2em;
 }
 
 aside {
@@ -124,12 +131,12 @@ footer a:hover {
   font-weight: normal;
 }
 
-a :hover {
+a:hover {
   color: #3f1622;
   text-decoration: underline;
   font-weight: normal;
 }
 
-a :link {
+a {
   color: #8f2440;
 }
