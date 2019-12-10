@@ -61,6 +61,7 @@ blockquote {
 
 cite {
   font-size: .8rem;
+  text-decoration: none;
 }
 
 h2 {
@@ -97,6 +98,7 @@ dd, dl {
 
 .nutrition {
   text-align: left;
+  #3f1622;
   margin: 0;
   padding: 0;
 }
