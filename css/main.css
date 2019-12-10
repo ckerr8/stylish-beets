@@ -6,7 +6,7 @@ html {
 }
 
 header {
-  font-size: .8rem;
+  font-size: 1.125rem;
   font-family: "PT Serif", serif;
   color: #222;
 }
@@ -100,9 +100,6 @@ dd, dl {
   font-weight: bold;
   color: #3f1622;
   list-style-type: none;
-  text-align: left;
-  margin: 0;
-  padding: 0;
 }
 
 .nutrition :nth-child(2n) {
@@ -131,4 +128,8 @@ a:hover {
   color: #3f1622;
   text-decoration: underline;
   font-weight: normal;
+}
+
+a:link {
+  color: #8f2440
 }
