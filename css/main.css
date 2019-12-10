@@ -26,7 +26,7 @@ img {
 }
 
 nav {
-  font-family: "PT Serif", serif;
+  font-family: "PT Sans",  sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
 }
@@ -66,15 +66,19 @@ cite {
 h2 {
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
+  color: #3f1622;
   font-size: 1.5rem;
 }
 
 dt, dd {
   display: inline-block;
+  font-family:  "Pt Serif", serif;
 }
 
 dd {
   text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
 dd, dl {
@@ -91,12 +95,14 @@ dd, dl {
   list-style-type: circle;
 }
 
-.nutrition {
+.nutrition :nth-last-child(2n) {
   font-size: 1.125rem;
   font-weight: bold;
   color: #3f1622;
   list-style-type: none;
-  text-align: start;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
 .nutrition :nth-child(2n) {
@@ -104,6 +110,7 @@ dd, dl {
   color: #222;
   font-weight: normal;
   list-style-type: none;
+
 }
 
 aside {
