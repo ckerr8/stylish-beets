@@ -6,7 +6,7 @@ html {
 }
 
 header {
-  font-size: 1.125rem;
+  font-size: .8rem;
   font-family: "PT Serif", serif;
   color: #222;
 }
@@ -26,7 +26,7 @@ img {
 }
 
 nav {
-  font-family: "PT Sans",  sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
 }
@@ -72,7 +72,7 @@ h2 {
 
 dt, dd {
   display: inline-block;
-  font-family:  "Pt Serif", serif;
+  font-family: "Pt Serif", serif;
 }
 
 dd {
@@ -110,7 +110,6 @@ dd, dl {
   color: #222;
   font-weight: normal;
   list-style-type: none;
-
 }
 
 aside {
