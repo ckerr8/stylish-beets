@@ -124,12 +124,12 @@ footer a:hover {
   font-weight: normal;
 }
 
-a:hover {
+a :hover {
   color: #3f1622;
   text-decoration: underline;
   font-weight: normal;
 }
 
-a:link {
-  color: #8f2440
+a :link {
+  color: #8f2440;
 }
