@@ -1,145 +1,98 @@
 html {
-  background-color: #c9b5ab;
-  font-family: "PT Serif", serif;
-  line-height: 1.5rem;
-  font-size: 1rem;
-}
 
-header {
-  font-size: 1.125rem;
-  font-family: "PT Serif", serif;
+  background-color: #c9b5ab;
+
+  font-family: "PT Sans", sans-serif;
   color: #222;
 }
 
-h1 {
+h1, h2 {
   color: #3f1622;
-  font-family: "PT Sans", sans-serif;
   font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+p, ol, figcaption, blockquote, data, ul, footer {
+  font-family: "PT Serif", serif;
+  line-height: 1.5;
+}
+
+a,
+a:link,
+a:visited {
+  color: #8f2440;
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: none;
+}
+
+ol {
+  list-style-type: none;
 }
 
 img {
   width: 100%;
 }
 
-.nav {
-  list-style-type: none;
-}
-
-nav {
-  font-family: "PT Sans", sans-serif;
-  font-size: 1.125rem;
-  font-weight: bold;
-}
-
-nav a {
-  color: #8f2440;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: #3f1622;
-  text-decoration: underline;
-}
-
 figcaption {
-  font-family: "PT Serif", serif;
   font-style: italic;
   text-align: center;
 }
 
-.germination {
+.days {
   font-family: "PT Serif", serif;
   font-weight: bold;
-  font-size: 1.5rem;
 }
 
 blockquote {
-  font-size: 1.5rem;
-  font-family: "PT Serif", serif;
   font-style: italic;
-}
-
-cite {
-  font-size: .8rem;
-  text-decoration: none;
-}
-
-h2 {
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
-  color: #3f1622;
   font-size: 1.5rem;
 }
 
-dt, dd {
-  display: inline-block;
-  font-family: "Pt Serif", serif;
+.chris {
+  font-size: 1rem;
 }
 
-dd {
-  text-align: left;
-  margin: 0;
-  padding: 0;
+strong {
+  font-weight: normal;
 }
 
-dd, dl {
-  font-family: "PT Sans", sans-serif;
-  font-size: 1.125rem;
-  text-align: inherit;
-}
-
-.varieties {
+article ol {
   list-style-type: lower-greek;
 }
 
-.tags {
-  list-style-type: circle;
-}
-
-.nutrition {
-  text-align: left;
-  #3f1622;
-  margin: 0;
-  padding: 0;
-}
-
-.nutrition :nth-last-child(2n) {
-  font-size: 1.125rem;
+dd {
   font-weight: bold;
-  color: #3f1622;
-  list-style-type: none;
 }
 
-.nutrition :nth-child(2n) {
-  font-size: .8rem;
-  color: #222;
+data {
   font-weight: normal;
-  list-style-type: none;
-  text-indent: 2em;
 }
 
-aside {
-  font-size: .8rem;
+dt {
+  font-style: italic;
+  line-height: 1.5;
 }
 
-footer a {
-  color: #8f2440;
+aside ul {
+  list-style-type: circle;
+  font-size: 1rem;
+}
+
+footer small a:link,
+footer small a:visited {
   text-decoration: none;
-}
-
-footer a:hover {
-  color: #3f1622;
-  text-decoration: underline;
-  font-weight: normal;
-}
-
-a:hover {
-  color: #3f1622;
-  text-decoration: underline;
-  font-weight: normal;
-}
-
-a {
   color: #8f2440;
-  text-decoration: none;
+  font-size: 1rem;
+}
+
+footer small a:hover {
+  color: #3f1622;
 }
